@@ -133,7 +133,6 @@ body{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     gap: 1em;
-    height: 100vh;
 }
 #three>div{
     display: grid;
