@@ -11,7 +11,7 @@ body{
     margin-left:2vw;
     justify-self: center;
     align-self: center;
-    height: 200vh;
+    height: 100vh;
     width: 92vw;
     display: grid;    
     grid-template-columns: repeat(1,1fr);
@@ -22,7 +22,7 @@ body{
     border: solid 2px black;
     background-color:whitesmoke;
     box-shadow: black 5px 5px 5px;
-    height: 40vh;
+    height: 50vh;
     padding: 2em;
 }
 #inicio{
@@ -133,6 +133,7 @@ body{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     gap: 1em;
+    height: 100vh;
 }
 #three>div{
     display: grid;
@@ -184,7 +185,7 @@ h3{
 }
 #eight{
     display: grid;
-    grid-template-columns: 4.5fr 0.5fr 1fr   ;
+    grid-template-columns: 3fr 0.5fr 1.5fr   ;
     height: 15vh;
    
 }
