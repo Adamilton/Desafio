@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+/*'Cinzel'*/
+
+@font-face { /*fonte proxima*/
+    font-family:'proxima';
+    src: url(fonts/Proxima\ N\ W01\ Reg.woff),url(fonts/Proxima\ N\ W01\ Reg.woff2);
+}
+
+@font-face {
+    font-family:'helvetica';
+    src: url(fonts/helvetica-light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:'Cinzel', sans-serif ;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c1739;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header {
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+p, h1, h2, h3, h4, h5, a, address, footer{
+    color: #ff2626;
+    text-align: center;
+}
+
+nav>a {
+    text-decoration: none;
+    width: 11.7rem;
+    height: 1.9rem;
+    font-size: 1.6rem;
+    padding: 0 11px;
+    font-family:'proxima', sans-serif ;
+}
+
+nav>a:first-child {
+    color: #ffffff;
+}
+
+a:nth-child(2):hover {
+    color: #ffffff;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    
+    font-size: 4rem;
+    width: 27rem;
+    height: 5.4rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 17.7rem;
+    height: 5.4rem;
+    color: #ff2626;
+    font-weight: 300;
+    
+}
+
+address,p,h5 {
+    font-size: 1.7rem;
+    font-family: 'helvetica', sans-serif;
+    font-weight: 300;
+}
+
+address {
+    display: flex;
+    width: 18ren;
+    height: 6.7rem;
+    margin-bottom: 2.4rem;
+}
+
+h5,p {
+    font-family:'helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+.veja {
+    width: 8.7rem;
+    height: 5.4rem;
+    line-height: 0.9;
+}
+
+.veja>* {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 300;  
+}
+
+h3 {
+    height: 5.7rem;
+    font-size: 1.8rem;
+    font-family:'helvetica', sans-serif;
+    font-weight: lighter;
+}
+
+form, fieldset, label {
+    display: flex;
+    height: 4.2rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+fieldset {
+    width: 75rem;
+    height: 4.2rem;
+    justify-content: space-evenly;
+}
+
+label>*{
+    background-color:#2c1739;
+    color: #ff2626;
+    border: 2px solid #ff2626;
+}
+
+input {
+    align-items: center;
+    border: 2px solid #ff2626;
+    height: 4.1rem;
+    width: 16rem;
+    font-size: 1.7rem;
+}
+
+select {
+    align-items: center;
+    background-color: #2c1739;
+    border: 2px solid #ff2626;
+    color: #ff2626;
+    height: 4.1rem;
+    width: 16rem;
+}
+
+select>*{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family:helvetica, sans-serif ;
+}
+
+
+
+#email::placeholder{
+    font-family:'helvetica' ;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: center;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+   
+    outline: 0;
+} 
+
+#reserva {
+    width: 17.8rem;
+    height: 4.2rem;
+    background-color: #ff2626;
+    color:#2c1739 ;
+}
+
+#reserva:hover {
+    background-color:  hsl(0, 100%, 42%);
+    border: hsl(0, 100%, 42%);
+}
+
+.bottom {
+    display: flex;
+    width: 20rem ;
+    height: 11rem;
+    align-items: center;
+
+}
+
+#eventos {
+    height: 10rem;
+    font-family: 'Cinzel';
+    color: #ffffff;
+}
+
+.participar{
+    
+    width: 40rem;
+    height: 12rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#email {
+    width: 22.9rem;
+    border: #ffffff solid 2px;
+}
+
+#enviar {
+    background-color:#2c1739;
+    color: #ff2626;
+    border: 2px solid #ff2626;
+    height: 4.5rem;
+    width: 12rem;
+}
+
+#enviar:hover {
+    background-color: #ffffff;
+    color:#2c1739;
+    border: #ffffff;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+    height: 15.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>*{
+    
+    display: flex;
+    font-family: 'helvetica', sans-serif;
+    font-size: 1.3rem;
+
+}
+
+span {
+    height: 10rem;
+    display: flex;
+}
