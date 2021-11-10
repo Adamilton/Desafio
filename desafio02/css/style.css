@@ -1,0 +1,115 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+   
+}
+html {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+body {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+main {
+    display: flex;
+    background-color: #D0DADF;
+    width: 500px;
+    height: 888px;
+   
+    box-shadow: 3px 3px 5px black;
+    justify-content: space-between;
+
+}
+
+header{
+    display: flex;
+    background-color: #46626F;
+    width: 34.46%;
+    height: 100%;
+    box-shadow: 3px 3px 5px black;
+    flex-direction: column;
+    
+}
+section{
+    display: flex;
+    background-color: #68466f;
+    width: 200px;
+    height:43.75%;  
+    box-shadow: 3px 3px 5px black;
+    justify-content: center;
+    flex-direction: column;
+}
+.foto{
+    margin-right: 9%;
+    display: flex;
+    background-color: #6f5046;
+    width: 180px;
+    height:180px;
+    border-radius: 200%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px black;
+}
+.nome{
+    text-align: center;
+}
+
+.contatos{
+    display: flex;
+    background-color: #46676f;
+    width: 200px;
+    height:38.25%;  
+    box-shadow: 3px 3px 5px black;
+    flex-direction: column;
+}
+.redes{
+    padding: 10px 10px 2px 0;
+    display: flex;
+    background-color: blue;
+    text-align: center;
+    align-items: center;  
+    justify-content: center;
+}
+.redes>*{
+    padding: 2px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    background-color: #466f4f;
+    width: 200px;
+    height:56.25%;  
+    box-shadow: 3px 3px 5px black;
+}
+article{
+    display: flex;
+    width: 59.53%;
+    height: 100%;
+    background-color: bisque;
+    box-shadow: 3px 3px 5px black;
+    flex-direction: column;
+}
+.topico{
+    display: flex;
+    width: auto;
+    height: 25%;
+    background-color: rgb(203, 255, 196);
+    box-shadow: 3px 3px 5px black;
+}
