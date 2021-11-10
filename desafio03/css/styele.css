@@ -13,6 +13,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 body {
@@ -27,37 +28,26 @@ header {
     display: flex;
     width: 100vw;
     /*width: 98.0rem;*/
-    *height:10.6rem ;
+    height:10.6rem ;
     flex-direction: row;
     justify-content: space-between;
     background-color: #fef7ed;
     position: fixed;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
 }
 
-.logo1  {
-    width: 27rem;
-    height: 20.6rem;
+.logo {
     display: flex;
     flex-direction: row;
+    width: 20rem;
+    height: 6rem;
     margin-left: 5vw;
     align-items: center;
 }
-
-.logo2 {
-    width: 27rem;
-    height: 20.6rem;
-    display: flex;
-    flex-direction: row;
-    margin-left: 5vw;
-    align-items: center;
-    
-}
-
-
 
 .lucas {
     font-size: 2.5rem;
@@ -460,13 +450,33 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #fef7ed;
-    
-
 }
 
 .paragrafo4 {
     font-family:'Work Sans' ;
     font-size: 1.2rem;
     font-weight: 300;
+}
 
+.chat {
+    display: flex;
+    width:27.9rem ;
+    height: 5.6rem;
+    background-color: #3A54B4;
+    
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat>*{
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family:'Work Sans', sans-serif ;
 }

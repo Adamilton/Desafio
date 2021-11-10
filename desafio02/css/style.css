@@ -28,6 +28,7 @@ html { /*A cada 1 rem será considerada 10px*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
     
 }
 
@@ -118,9 +119,9 @@ nav {
     color: #ffffff;
     border-radius: 20px;
     border: #FF9F24;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
     justify-content: start;
     align-items: center;
     flex-direction: row;
